@@ -37,6 +37,7 @@ namespace WebThumbnailGenerator
             Console.WriteLine("phantom exists? " + File.Exists("phantomjs/phantomjs.exe"));
             Console.WriteLine("Image exists? " + File.Exists("phantomjs/webname.png"));
             Console.WriteLine("Image exists? " + File.Exists("phantomjs/webname.png"));
+            Console.WriteLine("Image exists? " + File.Exists("phantomjs/webname.png"));
             var files = Directory.GetFiles("phantomjs");
             
             string allfiles = string.Join(",", files);
